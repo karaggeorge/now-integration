@@ -1,6 +1,24 @@
 {
   "name": "now-integration",
   "version": "1.0.0",
+  "description": "A framework that allows better code structure and routing for ZEIT Integrations",
+  "files": ["lib"],
+  "keywords": [
+    "now",
+    "zeit",
+    "integration",
+    "routing",
+    "plugins"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/karaggeorge/now-integration.git"
+  },
+  "author": {
+    "email": "gkaragkiaouris2@gmail.com",
+    "name": "George Karagkiaouris",
+    "url": "https://github.com/karaggeorge"
+  },
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",

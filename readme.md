@@ -374,5 +374,11 @@ This plugin provides the following action:
 htm`<Button action="logout">Logout</Button>`
 ```
 
+## Examples
+
+ZEIT Integrations built using this module:
+- [now-storyblok](https://github.com/karaggeorge/now-storyblok)
+- [now-pusher](https://github.com/karaggeorge/now-pusher)
+
 ## Maintainers
 - [George Karagkiaouris](https://github.com/karaggeorge)

@@ -16,21 +16,19 @@ export interface RequireTokenOptions {
 export interface LoginViewProps {
   error?: string,
   message?: string,
-  title?: string,
   tokens?: (Token & {value: string})[]
 }
 
 export const DefaultLoginView = ({
   error = '',
   message = '',
-  title = 'Please enter the following information',
   tokens = []
 }: LoginViewProps) => htm`
   <Page>
     <Box>${message}</Box>
     <Fieldset>
       <FsContent>
-        <FsSubtitle>${title}</FsSubtitle>
+        <FsSubtitle>Please enter the following information</FsSubtitle>
         ${
           tokens.map(token => htm`
             <Input label=${token.name} name=${token.key} width="100%" value=${token.value || ''} />

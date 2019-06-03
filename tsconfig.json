@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es6",
+      "lib": ["es2017", "es7", "es6"],
+      "strict": true,
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "outDir": "lib",
+      "declaration": true,
+      "baseUrl": "./"
+  },
+  "exclude": [
+    "node_modules/**/*",
+    "lib"
+  ]
+}

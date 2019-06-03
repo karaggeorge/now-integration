@@ -1,8 +1,10 @@
 {
   "name": "now-integration",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A framework that allows better code structure and routing for ZEIT Integrations",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "now",
     "zeit",
@@ -11,8 +13,8 @@
     "plugins"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/karaggeorge/now-integration.git"
+    "type": "git",
+    "url": "https://github.com/karaggeorge/now-integration.git"
   },
   "author": {
     "email": "gkaragkiaouris2@gmail.com",
